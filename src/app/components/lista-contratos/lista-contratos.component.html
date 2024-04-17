@@ -1,0 +1,17 @@
+<div>
+  <a *ngFor="let c of contratos"
+      class="contratocima"
+     (click)="selecionarContrato(c)">
+    {{ c.nome }}
+  </a>
+</div>
+<div class="card">
+  <span *ngIf="contrato"
+        class="carta-contrato {{ contrato.cor }}">
+    {{ contrato.nome }}
+  </span>
+    <span *ngIf="nipe"
+        class="nipes {{ nipe.cor }}">
+    {{ nipe.nome }}
+  </span>
+</div>

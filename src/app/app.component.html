@@ -1,0 +1,16 @@
+<app-lista-nipes
+  [nipes]="nipes"
+  [nipe]="nipe"
+  (nipeSelecionado)="nipe = $event"
+>
+</app-lista-nipes>
+
+<app-lista-contratos
+  [contratos]="contratos"
+  [contrato]="contrato"
+  [nipe]="nipe"
+  (contratoSelecionado)="contrato = $event"
+>
+</app-lista-contratos>
+
+<router-outlet />

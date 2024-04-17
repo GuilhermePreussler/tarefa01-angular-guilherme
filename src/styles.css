@@ -1,0 +1,91 @@
+
+.contrato {
+  display: inline-flex;
+  border-radius: .2em;
+}
+
+.contrato.branco {
+  background-color: white;
+  border: 1px solid grey;
+  color: black;
+  font-size: 20px;
+}
+
+.nipe {
+  display: inline-flex;
+  border-radius: .2em;
+}
+
+.nipes.preto {
+  background-color: white;
+  color: black;
+  font-size: 60px;
+}
+
+.nipes.vermelho {
+  background-color: white;
+  color: red;
+  font-size: 60px;
+}
+
+.contratocima {
+  display: inline-flex;
+  border-radius: .2em;
+  background-color: white;
+  border: 1px solid grey;
+  color: black;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-left: 40px;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.nipecima {
+  display: inline-flex;
+  border-radius: .2em;
+  background-color: white;
+  border: 1px solid grey;
+  color: red;
+  font-size: 50px;
+  margin-right: 50px;
+  margin-left: 120px;
+  padding: 30px 120px 30px 120px;
+}
+
+.nipecima.preto {
+  display: inline-flex;
+  border-radius: .2em;
+  background-color: white;
+  border: 1px solid grey;
+  color: black;
+  font-size: 50px;
+  margin-right: 50px;
+  margin-left: 120px;
+  padding: 30px 120px 30px 120px;
+}
+
+.carta-contrato {
+  background-color: white;
+  color: red;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.carta-contrato {
+  background-color: white;
+  color: black;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.card {
+  display: inline-block;
+  border-radius: .8em;
+  background-color: white;
+  border: 1px solid grey;
+  color: black;
+  margin-top: 200px;
+  margin-left: 805px;
+  padding: 130px 70px 130px 70px;
+}

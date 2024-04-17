@@ -1,0 +1,7 @@
+<div>
+  <a *ngFor="let c of nipes"
+     class="nipecima {{ c.cor }}"
+     (click)="selecionarNipe(c)">
+    {{ c.nome }}
+  </a>
+</div>
